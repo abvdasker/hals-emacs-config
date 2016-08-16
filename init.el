@@ -61,3 +61,7 @@
                             (setq c-basic-offset 2)))
 ;; remove toolbar
 (tool-bar-mode -1)
+
+(autoload 'crystal-mode "crystal-mode" "Major mode for crystal files" t)
+(add-to-list 'auto-mode-alist '("\\.cr$" . crystal-mode))
+(add-to-list 'interpreter-mode-alist '("crystal" . crystal-mode))
