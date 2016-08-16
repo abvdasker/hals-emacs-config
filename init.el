@@ -1,7 +1,7 @@
 ;; Melpa
 (require 'package) ;; You might already have this line
 (add-to-list 'package-archives
-	     '("melpa" . "https://melpa.org/packages/"))
+	     '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (when (< emacs-major-version 24)
   ;; For important compatibility libraries like cl-lib
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
@@ -65,3 +65,5 @@
 (autoload 'crystal-mode "crystal-mode" "Major mode for crystal files" t)
 (add-to-list 'auto-mode-alist '("\\.cr$" . crystal-mode))
 (add-to-list 'interpreter-mode-alist '("crystal" . crystal-mode))
+
+(add-to-list 'auto-mode-alist '("\\.json$" . json-mode))
