@@ -67,3 +67,6 @@
 (add-to-list 'interpreter-mode-alist '("crystal" . crystal-mode))
 
 (add-to-list 'auto-mode-alist '("\\.json$" . json-mode))
+
+(require 'tramp)
+(setq tramp-default-method "ssh")
