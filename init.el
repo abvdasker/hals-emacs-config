@@ -1,7 +1,7 @@
 ;; Melpa
 (require 'package) ;; You might already have this line
 (add-to-list 'package-archives
-	     '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+	     '("melpa" . "https://melpa.org/packages/") t)
 (when (< emacs-major-version 24)
   ;; For important compatibility libraries like cl-lib
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
@@ -30,8 +30,8 @@
 (require 'ido)
 (ido-mode t)
 
-;; seti theme
-(load-theme 'monokai t)
+;; load theme
+;;(load-theme 'darkokai t)
 
 ;; bind auto-indent to right brace
 (global-set-key (kbd "C-M-]") 'indent-region)
