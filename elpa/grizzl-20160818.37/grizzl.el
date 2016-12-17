@@ -389,7 +389,7 @@ if this is the current selection."
             (propertize " "
                         'face    'grizzl-prompt-face
                         'display `(space :align-to (- right
-                                                      ,(1+ (length match-info)))))
+                                                      ,(+ (length match-info) 2))))
             (propertize match-info 'face 'grizzl-prompt-face))))
 
 (defun grizzl-current-selection ()
