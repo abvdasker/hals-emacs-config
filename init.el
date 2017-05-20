@@ -79,7 +79,7 @@
  '(fringe-mode 0 nil (fringe))
  '(package-selected-packages
    (quote
-    (monokai-theme lispyscript-mode thrift projectile markdown-mode json-mode go-mode exec-path-from-shell elixir-mode darkokai-theme csv-mode ag))))
+    (kotlin-mode monokai-theme lispyscript-mode thrift projectile markdown-mode json-mode go-mode exec-path-from-shell elixir-mode darkokai-theme csv-mode ag))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
