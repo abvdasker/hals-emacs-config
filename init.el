@@ -44,7 +44,7 @@
 (setq-default indent-tabs-mode nil)
 
 ;; Use 2-space indent for JavaScript
-(setq js-indent-level 2)
+(setq js-indent-level 4)
 
 ;; use bash environment in windowed mode
 (require 'exec-path-from-shell)
